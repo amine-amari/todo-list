@@ -6,7 +6,9 @@ type TaskProps = {
 
 function Task({text}: TaskProps) {
   return (
-    <div>{text}</div>
+    <div>
+        <p>{text}</p>
+    </div>
   )
 }
 
